@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.example.parent</groupId>
+        <artifactId>example-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <groupId>com.example.application2</groupId>
+    <artifactId>com-example-application2</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0</version>
+
+    <dependencies>
+        <!-- Is this the right way to import the shared module into application1 or application2? -->
+        <dependency>
+            <groupId>com.example.shared</groupId>
+            <artifactId>com-example-shared</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
