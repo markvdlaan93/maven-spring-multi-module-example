@@ -7,7 +7,7 @@
 
     <parent>
         <groupId>com.example.parent</groupId>
-        <artifactId>example-parent</artifactId>
+        <artifactId>com-example-parent</artifactId>
         <version>1.0</version>
     </parent>
 
@@ -17,10 +17,10 @@
     <version>1.0</version>
 
     <dependencies>
-        <!-- Is this the right way to import the shared module into application1 or application2? -->
         <dependency>
             <groupId>com.example.shared</groupId>
             <artifactId>com-example-shared</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
